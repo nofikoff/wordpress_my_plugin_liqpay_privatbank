@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy LiqPay 0.8.4.1\n"
+"POT-Creation-Date: 2016-04-19 18:25+0300\n"
+"PO-Revision-Date: 2019-11-10 15:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: Nick Antal <nik.antal@gmail.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: easy-liqpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: common.php:15 __
+msgid "UAH"
+msgstr "UAH"
+
+#: common.php:16 __
+msgid "RUB"
+msgstr "RUB"
+
+#: common.php:17 __
+msgid "USD"
+msgstr "USD"
+
+#: common.php:18 __
+msgid "EUR"
+msgstr "EUR"
+
+#: common.php:41 __
+msgid "Pass too low arguments. Must pass 2 or more"
+msgstr "Передано занадто мало аргументів. Потрібно передати 2 або більше"
+
+#: common.php:41 __
+msgid "Saved value for input field must be string"
+msgstr "Збережене значення для поля вводу повинно бути стрічкою"
+
+#: include/classes/ELiq_Pay.php:47 __
+msgid "Options \"%s\" not defined"
+msgstr "Опція \"%s\" не визначена"
+
+#: include/classes/ELiq_Pay_Backend.php:47 __
+msgid "Not pass title for page"
+msgstr "Не вказана назва для сторінки"
+
+#: include/classes/ELiq_Pay_Backend.php:93 __
+msgid "Setting page already exists"
+msgstr "Сторінка налаштувань вже існує"
+
+#: include/classes/ELiq_Pay_Backend.php:103
+#: include/classes/ELiq_Pay_Backend.php:147 __
+msgid "LiqPay Setting"
+msgstr "Налаштування LiqPay"
+
+#: include/classes/ELiq_Pay_Backend.php:104 __
+msgid "LiqPay"
+msgstr "LiqPay"
+
+#: include/classes/ELiq_Pay_Backend.php:126
+#: include/classes/ELiq_Pay_Backend.php:127 __
+msgid "General"
+msgstr "Загальні"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:81 __
+msgid "Ukranian"
+msgstr "Українська"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:82 __
+msgid "Russian"
+msgstr "Російська"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:83 __
+msgid "English"
+msgstr "Англійська"
+
+#: include/classes/ELiq_Pay_Backend.php:183 __
+msgid "Public key"
+msgstr "Публічний ключ"
+
+#: include/classes/ELiq_Pay_Backend.php:184 __
+msgid "Private key"
+msgstr "Приватний ключ"
+
+#: include/classes/ELiq_Pay_Backend.php:185 __
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:105 _e
+msgid "Currency"
+msgstr "Валюта"
+
+#: include/classes/ELiq_Pay_Backend.php:186 __
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:143 _e
+msgid "Language"
+msgstr "Мова"
+
+#: include/classes/ELiq_Pay_Backend.php:187
+msgid "Default Description"
+msgstr "Опис платежу за замовчуванням"
+
+#: include/classes/ELiq_Pay_Donate.php:36 __
+msgid "Donate!"
+msgstr "Жертувати!"
+
+#: include/classes/ELiq_Pay_Donate.php:223 __
+#, fuzzy
+#| msgid "Not set request action"
+msgid "No set amount for donation"
+msgstr "Не встановлено дію запиту"
+
+#: include/classes/ELiq_Pay_Field.php:53 __
+msgid "Not define the fields \"%s\""
+msgstr "Поле \"%s\" не визначено"
+
+#: include/classes/ELiq_Pay_Request.php:46 __
+msgid "Not set public or private keys"
+msgstr "Публічний або приватний ключ не встановлені"
+
+#: include/classes/ELiq_Pay_Request.php:76 __
+msgid "Not valid payment action"
+msgstr "Не коректна дія платежу"
+
+#: include/classes/ELiq_Pay_Request.php:86 __
+msgid "Not valid payment currency"
+msgstr "Не коректна валюта платежу"
+
+#: include/classes/ELiq_Pay_Request.php:96 __
+msgid "Not valid amount value"
+msgstr "Не коректна сума платежу"
+
+#: include/classes/ELiq_Pay_Request.php:106 __
+msgid "Payment description can't empty"
+msgstr "Опис платежу не може бути порожнім"
+
+#: include/classes/ELiq_Pay_Request.php:122 __
+msgid "Not valid LiqPay language"
+msgstr "Не коректна мова інтерфейсу LiqPay"
+
+#: include/classes/ELiq_Pay_Request.php:132 __
+msgid "Not valid paytype"
+msgstr "Не коректний тип платежу"
+
+#: include/classes/ELiq_Pay_Request.php:171 __
+msgid "Not set request action"
+msgstr "Не встановлено дію запиту"
+
+#: include/fields/radio.php:20 __
+msgid "No have set options for radio buttons"
+msgstr "Не встановлено опцій для радіо-перемикачів"
+
+#: include/fields/select.php:25 __
+msgid "Select"
+msgstr "Обрати"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:7 __
+#, fuzzy
+#| msgid "Donat with LiqPay"
+msgid "Donate by LiqPay"
+msgstr "Дарування за допомогою LiqPay"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:12
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:51 __
+msgid "Donations"
+msgstr "Дарування"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:84 _e
+msgid "Title"
+msgstr "Заголовок"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:88 _e
+msgid "Subtitle"
+msgstr "Підзаголовок"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:92 _e
+msgid "Output type:"
+msgstr "Тип виводу:"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:94 _e
+msgid "Form"
+msgstr "Форма"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:96 _e
+msgid "Predefined"
+msgstr "Визначений заздалегідь"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:101 _e
+msgid "Default amount"
+msgstr "Сума за замовчуванням"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:127 _e
+msgid "Amount (type value with currency, example: 100$;20€)"
+msgstr "Величина (введить значення з валютою, наприклад: 100$;20€)"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:130 _e
+msgid "Click to put:"
+msgstr "Клацніть для ввставки:"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:135 _e
+msgid "Payment description"
+msgstr "Опис платежу"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:140 _e
+msgid "Show description field"
+msgstr "Відображати поле для вводу опису дарування"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:147 _e
+msgid "Result URL"
+msgstr "Сторінка повернення"
+
+#: include/public/widgets/donate/ELiq_Pay_Donate_Widget.php:152 _e
+msgid "Home"
+msgstr "Домашня сторінка"
+
+#~ msgid "Donate"
+#~ msgstr "Жертувати"
+
+#~ msgid "Return page after donation"
+#~ msgstr "Сторінка сайту після жертвування"
+
+#~ msgid "Text before form"
+#~ msgstr "Текст перед формою"
+
+#~ msgid "Main setting"
+#~ msgstr "Головні налаштування"
+
+#~ msgid "Required setting"
+#~ msgstr "Обов'язкові налаштування"
+
+#~ msgid "Optional setting"
+#~ msgstr "Небов'язкові налаштування"
+
+#~ msgid "Sandbox"
+#~ msgstr "Тестовий режим"
+
+#~ msgid "Enable"
+#~ msgstr "Ввімкнено"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "У вас нема достатніх прав для цієї сторінки."
+
+#~ msgid "Donation"
+#~ msgstr "Дарування"
+
+#~ msgid "Default Amount"
+#~ msgstr "Сума за замовчуванням"
+
+#~ msgid "Title:"
+#~ msgstr "Заголовок"

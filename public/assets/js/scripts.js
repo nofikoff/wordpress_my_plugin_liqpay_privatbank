@@ -1,0 +1,1 @@
+var ELPAPP;!function(n){"use strict";n(function(){}),window.ELPAPP=new function(){this.rounds=20,this.frequency=500,this.requestAnswer=function(n){this.rounds,this.frequency}}}(jQuery,document);
